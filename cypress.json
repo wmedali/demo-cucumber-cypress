@@ -1,0 +1,10 @@
+{
+  "testFiles": "**/*.feature",
+  "chromeWebSecurity": false,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "temp/",
+    "charts": true,
+    "reportPageTitle": "Rapport HTML de demo"
+  }
+}
