@@ -12,3 +12,7 @@ jobs:
         run: npm ci
       - name: Execute tests
         run: npx cypress run
+      - uses: actions/upload-artifact@v3
+        with:
+          name: TEST_REPORT
+          path: temp/
